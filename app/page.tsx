@@ -462,7 +462,7 @@ async function handleDonate() {
             🤲
           </div>
 
-          <h3 className="text-[#4f9d3a] text-lg font-semibold mb-3">
+          <h3 className="text-3xl font-bold mb-3">
             Название организации
           </h3>
 
@@ -473,9 +473,9 @@ async function handleDonate() {
 
         {/* TEXT */}
         <div>
-          <p className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-8">
-            О нашей организации
-          </p>
+          <p className="text-[#4f9d3a] text-lg font-semibold mb-3">
+  О нашей организации
+</p>
 
           <h2 className="hidden lg:block text-4xl lg:text-5xl font-bold mb-6">
   Помогаем храмам собирать средства открыто и удобно
