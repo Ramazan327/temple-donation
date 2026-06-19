@@ -170,7 +170,7 @@ async function handleDonate() {
     {/* PHOTO + INFO */}
     <div className="relative rounded-[26px] lg:rounded-[34px] overflow-hidden min-h-[720px] sm:min-h-[620px] lg:min-h-[680px] shadow-xl">
       <img
-        src="/orig.jpg"
+        src="/orig.webp"
         alt="Храм"
         className="absolute inset-0 w-full h-full object-cover"
       />
