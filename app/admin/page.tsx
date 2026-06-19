@@ -1,5 +1,6 @@
 import { prisma } from "@/lib/prisma";
 import LogoutButton from "./logout-button";
+export const dynamic = "force-dynamic";
 export default async function AdminPage() {
   const donations = await prisma.donation.findMany({
     orderBy: {
